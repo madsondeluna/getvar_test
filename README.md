@@ -133,6 +133,32 @@ docker run -p 5000:5000 getvar_app
 
 Isso iniciará a aplicação Flask dentro de um contêiner Docker e a tornará acessível em `http://localhost:5000`.
 
+## Como Contribuir
+
+1. **Fork o repositório**: Clique no botão "Fork" no canto superior direito da página do repositório para criar uma cópia do repositório na sua conta do GitHub.
+2. **Clone o repositório**: Clone o repositório forkado para sua máquina local usando o seguinte comando:
+   ```bash
+   git clone https://github.com/seu-usuario/getvar_test.git
+   ```
+3. **Crie um novo branch**: Crie um novo branch para sua contribuição. Use um nome descritivo para seu branch para indicar o propósito das suas mudanças.
+   ```bash
+   git checkout -b feature/nome-da-sua-feature
+   ```
+4. **Faça suas mudanças**: Implemente suas mudanças no novo branch. Certifique-se de que seu código segue os padrões de codificação e inclui testes apropriados.
+5. **Commit suas mudanças**: Commit suas mudanças com uma mensagem de commit clara e concisa.
+   ```bash
+   git commit -m "Adiciona feature: descrição da sua feature"
+   ```
+6. **Push suas mudanças**: Push suas mudanças para o repositório forkado.
+   ```bash
+   git push origin feature/nome-da-sua-feature
+   ```
+7. **Crie um pull request**: Abra um pull request (PR) do seu branch para o branch `main` do repositório principal. Forneça uma descrição detalhada das suas mudanças e do problema que elas resolvem.
+
+## Reportando Problemas e Solicitando Funcionalidades
+
+Se você encontrar algum problema ou tiver uma solicitação de funcionalidade, por favor, abra uma issue no repositório. Forneça o máximo de detalhes possível para que possamos entender e resolver o problema ou considerar a solicitação de funcionalidade.
+
 ## Licença
 
 Este projeto está licenciado sob a [Licença MIT](https://opensource.org/licenses/MIT). Consulte o arquivo LICENSE para mais informações.
