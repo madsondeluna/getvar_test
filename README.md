@@ -3,7 +3,7 @@
 ## Aviso ⚠️
 
 Esse é um **<i>repositório de testes</i>**. Pode apresentar instabilidades. 
-Para a versão mais atualizadas acesse: 
+Para a versão estável acesse: 
 
 ```
 https://github.com/madsondeluna/getvar_mvp
