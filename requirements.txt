@@ -3,3 +3,4 @@ pandas
 pysam
 aiohttp
 pytest
+gunicorn

@@ -113,6 +113,26 @@ Submeta um arquivo **VCF** através da interface web. O sistema processará os d
 
 As APIs REST do dbSNP, ClinVar e Ensembl possuem um limite de até 30 requisições por solicitação. Por isso, a aplicação pode apresentar instabilidade ou lentidão em alguns momentos. Além disso, os servidores dessas plataformas ocasionalmente podem ficar instáveis ou não responder adequadamente às requisições. Nesses casos, o manual das APIs recomenda a resubmissão dos dados para completar o processo de anotação.
 
+## Usando o Dockerfile
+
+### Construindo a imagem Docker
+
+Para construir a imagem Docker, execute o seguinte comando no diretório raiz do projeto:
+
+```bash
+docker build -t getvar_app .
+```
+
+### Executando o contêiner Docker
+
+Para executar o contêiner Docker, use o seguinte comando:
+
+```bash
+docker run -p 5000:5000 getvar_app
+```
+
+Isso iniciará a aplicação Flask dentro de um contêiner Docker e a tornará acessível em `http://localhost:5000`.
+
 ## Licença
 
 Este projeto está licenciado sob a [Licença MIT](https://opensource.org/licenses/MIT). Consulte o arquivo LICENSE para mais informações.
