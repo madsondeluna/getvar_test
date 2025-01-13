@@ -53,12 +53,14 @@ O **GET<i>Var</i>** é uma ferramenta desenvolvida para **análise e anotação 
 
 ## Estrutura do Projeto
 
-- **`main.py`**: Arquivo principal para executar a aplicação.
-- **`api_getters.py`**: Contém funções para integrar e buscar dados externos.
-- **`views.py`**: Gerencia as rotas e interações do usuário.
+- **`src/main.py`**: Arquivo principal para executar a aplicação.
+- **`src/api_getters.py`**: Contém funções para integrar e buscar dados externos.
+- **`src/views.py`**: Gerencia as rotas e interações do usuário.
+- **`src/utils.py`**: Contém funções utilitárias para processamento de dados.
 - **`templates/`**: Arquivos HTML para visualização de resultados.
-- **`static/`**: Arquivos de imagens e vídeos.
+- **`src/static/`**: Arquivos de imagens e vídeos.
 - **`requirements.txt`**: Lista de dependências.
+- **`tests/`**: Arquivos de testes unitários e de integração.
 
 ## Requisitos de Instalação
 
@@ -94,7 +96,7 @@ Certifique-se de ter as seguintes ferramentas instaladas:
 1. Inicie o servidor local:
 
    ```bash
-   python3 main.py
+   python3 src/main.py
    ```
 
 2. Acesse a aplicação no navegador em:
